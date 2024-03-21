@@ -1,0 +1,35 @@
+.left-sidebar {
+    top: 70px;
+    position: fixed;
+    left: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: calc(100% - 70px);
+    align-items: center;
+    overflow-y: auto;
+}
+
+    .image-with-name {
+        display: grid;
+        grid-template-columns: 50px 230px;
+        align-items: center;
+        vertical-align: middle;
+        padding-bottom: 20px;
+        cursor: pointer;
+    }
+
+    .image-with-name:hover {
+        opacity: 0.8;
+        
+    }
+
+    .image-with-name img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .left-sidebar-text {
+        font-weight: bold;
+        padding-left: 10px;
+    }

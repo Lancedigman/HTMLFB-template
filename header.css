@@ -1,0 +1,117 @@
+header {
+    height: 55px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: solid;
+    border-bottom-width: 0.5px;
+    border-bottom-color: rgb(213, 213, 213);
+    align-items: center;
+    border: none;
+}
+
+/*LEFT PART OF THE HEADER*/
+.left-header {
+    align-items: center;
+    display: flex;
+    margin-right: 110px;
+    margin-left: 10px;
+}
+
+    .facebook-logo {
+    height: 36px;
+    width: 36px;
+    margin-right: 5px;
+    margin-left: 5px;
+    }
+
+    .search-bar {
+    height: 40px;
+    width: 240px;
+    display: grid;
+    grid-template-columns: 40px 200px;
+    align-items: center;
+    vertical-align: middle;
+    background-color: rgb(240, 242, 245);
+    padding-left: 5px;
+    border-radius: 20px;
+    }
+
+    .search-icon {
+    height: 20px;
+    padding-left: 10px;
+    align-items: center;
+    vertical-align: middle;
+    }
+
+    .search-bar-placeholder {
+    border: none;
+    background-color: transparent;
+    }
+
+.middle-header {
+    display: flex;
+    flex: 1;/* Adjust as needed */
+    align-items: center;
+    justify-content: space-between;
+    max-width: 500px;
+
+}
+
+    .img-background {
+        height: 40px;
+        width: 40px;
+        border-radius: 40px;
+        margin-right: 10px;
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .img-background img {
+        height: 30px;
+        width: 30px;
+    }
+
+.right-header {
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: space-between;
+    margin-left: 110px;
+    margin-right: 10px;
+}
+
+.img-background-right {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(240, 242, 245);
+}
+
+.profile {
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+}
+
+.img-background-right-img {
+    height: 25px;
+    width: 25px;
+}
